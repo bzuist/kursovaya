@@ -10,13 +10,15 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
+    mainwindow.cpp \
     record.cpp
 
 HEADERS += \
+    mainwindow.h \
     record.h
 
 FORMS += \
-    record.ui
+    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
